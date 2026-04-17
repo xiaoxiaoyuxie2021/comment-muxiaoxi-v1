@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="GB2312">
+    <title>欢迎来到沐咲汐的留言区</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00ff00;
+            font-family: "宋体", "MS Sans Serif", sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            margin: 0 auto;
+        }
+        td {
+            border: 1px solid #00ff00;
+            padding: 10px;
+        }
+        .marquee {
+            color: #ff0000;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .title {
+            color: #ff00ff;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        a:link, a:visited {
+            color: #00ffff;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #ffff00;
+        }
+        .counter {
+            color: #ff6600;
+            font-size: 16px;
+            text-align: center;
+        }
+        hr {
+            border: 1px solid #00ff00;
+        }
+        .btn {
+            background-color: #c0c0c0;
+            color: #000000;
+            border: 2px outset #ffffff;
+            padding: 2px 8px;
+            font-family: "宋体";
+        }
+        .btn:active {
+            border-style: inset;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="marquee" scrollamount="3">
+        欢迎来到沐咲汐的留言区！本站更新于2026年4月17日 | 请使用IE4.0以上浏览器访问 | 最佳分辨率800×600
+    </marquee>
+
+    <table>
+        <!-- 顶部标题栏 -->
+        <tr>
+            <td colspan="2" class="title">
+                ✨ 沐咲汐的留言区（博客请转至muxiaoxi.cn） ✨
+            </td>
+        </tr>
+
+        <!-- 左侧导航栏 -->
+        <tr>
+            <td valign="top">
+                <p id="about"><strong>👋 关于我</strong></p>
+                <p>大家好！我是沐咲汐，喜欢分享ACG和日常。</p>
+                <p>本站是我的留言区，用VS Code制作~</p>
+                <hr>
+
+                <p id="diary"><strong>📖 最近日记</strong></p>
+                <p>2026-04-17：本站完成设计</p>
+                <hr>
+
+                <p id="links"><strong>🤝 友情链接</strong></p>
+                <hr>
+
+                <p id="download"><strong>📥 下载区</strong></p>
+                <p>游戏推荐：</p>
+                <p><a href="https://pjsk.nvsgames.cn">初音未来：缤纷舞台</a> | <a href="https://mc.kurogames.com/">鸣潮</a></p>
+            </td>
+            <td width="500" valign="top">
+                <p id="guestbook"><strong>📝 留言本&nbsp;&nbsp;<a href="github">GitHub快捷登录</a></strong></p>
+                <p>欢迎给我留言！</p>
+                <input type="text" size="30" placeholder="请输入留言...">
+                <button class="btn">提交</button>
+                <hr>
+            </td>
+        </tr>
+
+        <!-- 底部版权栏 -->
+        <tr>
+            <td colspan="2" align="center">
+                <p>© 2026 沐咲汐 版权所有 | 本站由 VS Code 制作 | Cloudflare 提供CDN支持</p>
+                <p>推荐使用 800×600 分辨率 | IE4.0+ 浏览器访问 | <a href="https://icp.gov.moe/?keyword=20260510" target="_blank">萌ICP备20260510号</a></p>
+            </td>
+        </tr>
+    </table>
+
+    <div style="position: fixed; bottom: 10px; left: 10px;">
+        <span style="color: #ffff00;">🌍</span>
+    </div>
+    <div style="position: fixed; bottom: 10px; right: 10px;">
+        <span style="color: #ff00ff;">⭐</span>
+    </div>
+</body>
+</html>
